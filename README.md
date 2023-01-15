@@ -2,6 +2,6 @@
 
 I would like to add blog post in this repository.
 
-| First Header  | Second Header |
+| Name  | Link |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
