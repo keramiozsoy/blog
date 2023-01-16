@@ -6,3 +6,7 @@ There are a lot of distros.
 - SUSE Family Systems (including openSUSE)
 - Debian Family Systems ( including Ubuntu and Linux Mint)
 
+![alt text](http://url/to/img.png)
+
+![Screenshot](distro.png)
+
