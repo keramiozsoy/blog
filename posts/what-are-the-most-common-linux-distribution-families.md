@@ -8,5 +8,5 @@ There are a lot of distros.
 
 ![alt text](http://url/to/img.png)
 
-![Screenshot](distro.png)
+![Screenshot](distro.svg)
 
