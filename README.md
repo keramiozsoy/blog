@@ -5,3 +5,4 @@ I would like to add blog post in this repository.
 | Name  | Link |
 | ------------- | ------------- |
 | what-are-the-most-common-linux-distribution-families  | [Open](/posts/230117)  |
+| linux-histro  | [Open](/posts/230118)  |
