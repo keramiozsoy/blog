@@ -6,3 +6,4 @@ I would like to add blog post in this repository.
 | ------------- | ------------- |
 | what-are-the-most-common-linux-distribution-families  | [Open](/posts/230117)  |
 | linux-history  | [Open](/posts/230118)  |
+| linux-terminology  | [Open](/posts/230119)  |
