@@ -1,6 +1,7 @@
 # blogs
 
-I would like to add blog post in this repository.
+blog posts about tech
+
 
 | Name  | Link |
 | ------------- | ------------- |
