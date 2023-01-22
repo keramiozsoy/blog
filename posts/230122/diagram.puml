@@ -1,0 +1,6 @@
+@startwbs
+* MBR
+** Partition 1 (Bootable)
+** Partition 2
+** Partition 3
+@endwbs
