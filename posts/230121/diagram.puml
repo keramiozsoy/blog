@@ -1,0 +1,5 @@
+@startmindmap
+* Power On
+** BIOS
+*** Initialize the screen and keyboard and tests the main memory
+@endmindmap
