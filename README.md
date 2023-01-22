@@ -9,3 +9,5 @@ blog posts about tech
 | linux-history  | [Open](/posts/230118)  |
 | linux-terminology  | [Open](/posts/230119)  |
 | linux-filesystem | [Open](/posts/230120) |
+| what-is-bios | [Open](/posts/230121) |
+| what-is-master-boot-record-and-boot-boader | [Open](/posts/230122) |
