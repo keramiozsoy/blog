@@ -18,4 +18,4 @@ Nginx
 
 | Name  | Link |
 | ------------- | ------------- |
-| A  | [Open](/posts/230124)  |
+| what-is-nginx  | [Open](/posts/230124)  |
