@@ -2,6 +2,7 @@
 
 blog posts about tech
 
+Linux
 
 | Name  | Link |
 | ------------- | ------------- |
@@ -12,3 +13,9 @@ blog posts about tech
 | what-is-bios | [Open](/posts/230121) |
 | what-is-master-boot-record-and-boot-boader | [Open](/posts/230122) |
 | what-are-the-responsibilities-of-boot-loader | [Open](/posts/230123) |
+
+Nginx
+
+| Name  | Link |
+| ------------- | ------------- |
+| A  | [Open](/posts/230124)  |
