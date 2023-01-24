@@ -12,6 +12,7 @@ and more.
 
 It started out as a web server for maximum performance.
 
-NGINX can also run as a proxy server for email( IMAP, POP3, SMTP) and reverse proxy.
+NGINX can also run as a proxy server for email
+( IMAP, POP3, SMTP ) and reverse proxy.
 
 
