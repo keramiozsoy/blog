@@ -1,4 +1,4 @@
-# how to install nginx debian bulleye
+# how to install nginx on debian bulleye
 
 Install the prerequisites:
 
