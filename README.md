@@ -20,12 +20,12 @@ Nginx
 | ------------- | ------------- |
 | what-is-nginx  | [Open](/posts/230124)  |
 | how-to-install-nginx  | [Open](/posts/230125)  |
-| new-post  | [Open](/posts/230126)  |
+| new-post  | [Open](/posts/230127)  |
 
 
 Vagrant 
 
 | Name  | Link |
 | ------------- | ------------- |
-| what-is-vagrant  | [Open](/posts/230127)  |
+| what-is-vagrant  | [Open](/posts/230126)  |
 
