@@ -1,5 +1,7 @@
 # how to install nginx on debian bulleye
 
+Open your terminal.
+
 Install the prerequisites:
 
 ```
@@ -53,7 +55,25 @@ sudo apt update
 sudo apt install nginx
 ```
 
+We finally installed. :)
 
+
+Let's check version
+
+```
+nginx -v
+```
+
+nginx version: nginx/1.23.3
+
+
+Let's check processes
+
+```
+ps -ef | grep nginx
+```
+
+Let's check status with below command
 
 ```
 systemctl status nginx
@@ -68,18 +88,27 @@ systemctl start nginx
 ```
 
 If you would like to see nginx default landing page,
-we need to get ip address.
+
+
+run simple way 
+
+```
+curl localhost
+```
+
+or we need to get ip address.
 
 ```
 ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 
 ```
-
-
+and run
 
 ```
 curl http://IP_ADRESS
 ```
+
+Both of results 
 
 ```
 <!DOCTYPE html>
@@ -106,5 +135,6 @@ Commercial support is available at
 </body>
 </html>
 ```
+
 
 
