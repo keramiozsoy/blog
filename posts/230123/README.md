@@ -5,7 +5,8 @@ Static files of the boot loader in the /boot folder.
 
 These files help to start computer. This is one of the most
 important folder. Removing anything from this directory 
-or a file getting corrupted will result in OS crash after reboot.
+or a file getting corrupted will result in
+operating system crash after reboot.
 
 Let's dive into general responsibilities of boot loader.
 
@@ -42,7 +43,7 @@ hardware failures and so on.
 Let's dive into more detail of /boot folder.
 
 
-If you would like to see inside of folder run below command on your terminal.
+If you would like to see inside of folder, run below command on your terminal.
 
 ```
 $ cd /boot
@@ -61,6 +62,7 @@ drwxr-xr-x  5 root root     4096 Dec 19 20:28 grub
 
 These folder and files are related all about kernel. :)
 
+- /grub this folder name tells us what kind of loader our system is using.
 
 - vmlinuz-<kernel version> is your actual kernel binary.
 
@@ -69,7 +71,6 @@ These folder and files are related all about kernel. :)
 - config-<kernel version> containes configs your kernel binary was compiled with.
 
 - system.map-<kernel version>
-
 
 If you update your kernel you will see all versions of files here.
 
@@ -85,6 +86,54 @@ $ uname -a
 Linux bullseye 5.10.0-21-amd64 #1 SMP Debian 5.10.162-1 (2023-01-21) x86_64 GNU/Linux
 ```
 
+All about information still you're not ensure what boot loader that you're using your system.
+
+Run below command 
+```
+echo $((`cat /proc/sys/kernel/bootloader_type`>>4))
+```
+Response in my system is
+
+```
+7
+```
+
+What is 7?
+
+Go to linux kernel
+
+```
+https://github.com/torvalds/linux/tree/master/Documentation/x86/boot.txt
+```
+
+Open the folder and find the partition as below 
+and look at the number please :)
+
+```
+Assigned boot loader ids (hexadecimal):
+
+
+0	LILO (0x00 reserved for pre-2.00 bootloader)
+1	Loadlin
+2	bootsect-loader (0x20, all other values reserved)
+3	Syslinux
+4	Etherboot/gPXE/iPXE
+5	ELILO
+7	GRUB
+8	U-Boot
+9	Xen
+A	Gujin
+B	Qemu
+C	Arcturus Networks uCbootloader
+D	kexec-tools
+E	Extended (see ext_loader_type)
+F	Special (0xFF = undefined)
+10	Reserved
+11	Minimal Linux Bootloader <http://sebastian-plotz.blogspot.de>
+12	OVMF UEFI virtualization stack
+13	barebox
+
+```
 
 
 
