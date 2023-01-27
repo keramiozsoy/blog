@@ -19,3 +19,14 @@ There are many boot loaders exist on linux;
 
 
 When booting, the boot loader is responsible for loading the kernel image and the initial RAM disk into memory.
+
+Additionaly, Let's check what bootloader my system is using 
+
+```
+$ sudo file -s /dev/sda
+```
+
+Here is the answer
+```
+/dev/sda: DOS/MBR boot sector
+```
