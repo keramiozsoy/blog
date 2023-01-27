@@ -1,3 +1,2 @@
-# what is vagrant
+# What is an initial RAM disk
 
-Vagrant is a tool for building and managing virtual machines.
