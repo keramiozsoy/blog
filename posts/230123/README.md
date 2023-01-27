@@ -1,14 +1,13 @@
 # what are the responsibilities of boot loader
 
+A boot loader is a program responsible for loading the Linux kernel.
+Static files of the boot loader in the /boot folder.
 
-Static files of the boot-loader in the /boot folder.
 These files help to start computer. This is one of the most
 important folder. Removing anything from this directory 
 or a file getting corrupted will result in OS crash after reboot.
 
-
 Let's dive into general responsibilities of boot loader.
-
 
 - Initializing the hardware
 
@@ -24,7 +23,6 @@ and start managing system resources.
 
 Once the kernel is loaded, then the boot loader
 hands control over to it and the operating systm starts.
-
 
 - Splash screen menu
 
@@ -61,16 +59,34 @@ drwxr-xr-x  5 root root     4096 Dec 19 20:28 grub
 -rw-r--r--  1 root root  7008928 Dec 13 20:46 vmlinuz-5.10.0-20-amd64
 ```
 
-These folder and files are all about kernel. :)
+These folder and files are related all about kernel. :)
 
 
-vmlinuz-<kernel version> is your actual kernel binary.
+- vmlinuz-<kernel version> is your actual kernel binary.
 
-initrd.img-<kernel version>	is a small and temporary filesystem to boot your system.
+- initrd.img-<kernel version>	is a small and temporary filesystem to boot your system.
 
-config-<kernel version> containes configs your kernel binary was compiled with.
+- config-<kernel version> containes configs your kernel binary was compiled with.
 
-system.map-<kernel version>
+- system.map-<kernel version>
+
+
+If you update your kernel you will see all versions of files here.
+
+
+Actually, I put the command below which is shortcut of what we learned about it.
+
+
+```
+$ uname -a
+```
+
+```
+Linux bullseye 5.10.0-21-amd64 #1 SMP Debian 5.10.162-1 (2023-01-21) x86_64 GNU/Linux
+```
+
+
+
 
 
 
