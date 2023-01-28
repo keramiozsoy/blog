@@ -12,7 +12,7 @@ Linux
 | linux-filesystem | [Open](/posts/230120) |
 | what-is-bios | [Open](/posts/230121) |
 | what-is-master-boot-record-and-boot-boader | [Open](/posts/230122) |
-| what-are-the-responsibilities-of-boot-loader | [Open](/posts/230123) |
+| what-are-the-responsibilities-of-boot-loader | [Open](/posts/230123)||  What is an initial RAM disk initrd or initial RAM File System initramfs | [Open](/posts/230127) |
 
 Nginx
 
