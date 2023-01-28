@@ -1,4 +1,4 @@
-# What is an initial RAM disk
+# What is an initial RAM disk initrd or initial RAM File System initramfs
 
 
 A initrd which stands for initial ram disk.
