@@ -35,5 +35,6 @@ In this process, after the root(real) filesystem has been found, it is checked f
 If mounted section is successful, the init program on the root filesystem /sbin/init is executed. The initramfs is cleared from RAM because we will not use later on.
 
 
-/sbin/init handles the mounting process jump to final step.
+/sbin/init handles the mounting process jump to final step
+which is text-mode login prompts.
 
