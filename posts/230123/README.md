@@ -3,8 +3,7 @@
 A boot loader is a program responsible for loading the Linux kernel.
 Static files of the boot loader in the /boot folder.
 
-These files help to start computer. This is one of the most
-important folder. Removing anything from this directory 
+These files help to start the operating system. This is one of the most important folder. Removing anything from this directory 
 or a file getting corrupted will result in
 operating system crash after reboot.
 
@@ -64,13 +63,19 @@ These folder and files are related all about kernel. :)
 
 - /grub this folder name tells us what kind of loader our system is using.
 
-- vmlinuz-<kernel version> is your actual kernel binary.
+- vmlinuz-<installed kernel version> is your actual kernel binary files.
 
-- initrd.img-<kernel version>	is a small and temporary filesystem to boot your system.
+You can with below command what vmlinuz* is.
 
-- config-<kernel version> containes configs your kernel binary was compiled with.
+```
+file vmlinuz-<installed kernel version>
+```
 
-- system.map-<kernel version>
+- initrd.img-<installed version> is a small and temporary inital ram disk image to boot your system.
+
+- config-<installed version> containes configs your kernel binary was compiled with.
+
+- system.map-<installed version>
 
 If you update your kernel you will see all versions of files here.
 
@@ -103,11 +108,13 @@ What is 7?
 Go to linux kernel
 
 ```
-https://github.com/torvalds/linux/tree/master/Documentation/x86/boot.txt
+https://github.com/torvalds/linux/tree/master/Documentation/x86/boot.rst
 ```
 
-Open the folder and find the partition as below 
-and look at the number please :)
+Open the folder and find the table as below which shows 
+all possible bootloaders. 
+
+Please look at the numbers :)
 
 ```
 Assigned boot loader ids (hexadecimal):
@@ -134,10 +141,3 @@ F	Special (0xFF = undefined)
 13	barebox
 
 ```
-
-
-
-
-
-
-
