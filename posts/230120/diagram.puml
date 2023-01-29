@@ -6,5 +6,5 @@
 ***** Kernel (Linux OS)
 ****** Inital Ram disk - initramfs 
 ******* /sbin/init (parent process)
-******** X Windows System
+******** Text mode login
 @endmindmap

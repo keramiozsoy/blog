@@ -12,3 +12,4 @@ When the init command starts, it becomes the parent or grandparent of all of the
 
 In this step we see username and password panel.
 
+Let's log in :)
