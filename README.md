@@ -9,7 +9,7 @@ Linux
 | what-are-the-most-common-linux-distribution-families  | [Open](/posts/230117)  |
 | linux-history  | [Open](/posts/230118)  |
 | linux-terminology  | [Open](/posts/230119)  |
-| linux-filesystem | [Open](/posts/230120) |
+| what is happening while the boot process is running on linux | [Open](/posts/230120) |
 | what-is-bios | [Open](/posts/230121) |
 | what-is-master-boot-record-and-boot-boader | [Open](/posts/230122) |
 | what-are-the-responsibilities-of-boot-loader | [Open](/posts/230123)|| what is an initial RAM disk initrd or initial RAM File System initramfs | [Open](/posts/230127) |
