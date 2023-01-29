@@ -1,0 +1,19 @@
+@startwbs
+* /
+** /bin/
+** /boot/
+** /dev/
+** /etc/
+** /home/
+** /lib/
+** /media/
+** /mnt/
+** /opt/
+** /proc/
+** /root/
+** /sbin/
+** /srv/
+** /tmp/
+** /usr/
+** /var/
+@endwbs

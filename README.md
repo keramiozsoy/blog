@@ -16,6 +16,7 @@ Linux
 | [Open](/posts/230127) | what is an initial RAM disk initrd or initial RAM File System initramfs  |
 | [Open](/posts/230128) | what is systemd or /sbin/init  |
 | [Open](/posts/230129) | what is text mode login  |
+| [Open](/posts/230130) | let's look into linux filesystem hierarchy  |
 
 
 Nginx
@@ -24,7 +25,6 @@ Nginx
 | ------------- | ------------- |
 | [Open](/posts/230124) | what-is-nginx    |
 | [Open](/posts/230125) | how-to-install-nginx    |
-| [Open](/posts/230127) | new-post    |
 
 
 Vagrant 
