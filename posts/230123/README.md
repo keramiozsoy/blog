@@ -2,7 +2,15 @@
 
 ![Screenshot](diagram-boot-process.svg)
 
-A boot loader is a program responsible for loading the Linux kernel.
+A boot loader is a program responsible for loading both the Linux kernel (vmlinuz)
+and temporary file systems.
+
+Temporary file systems can be options below. 
+
+ - A initrd which stands for initial ram disk.
+ - A initramfs which stands for initial RAM File System.
+
+
 Static files of the boot loader in the /boot folder.
 
 These files help to start the operating system. This is one of the most important folder. Removing anything from this directory 
