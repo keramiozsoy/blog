@@ -4,7 +4,7 @@ blog posts about tech
 
 Linux
 
-| Name  | Link |
+| Link | Name   |
 | ------------- | ------------- |
 | [Open](/posts/230117) | what-are-the-most-common-linux-distribution-families  |
 | [Open](/posts/230118) | linux-history    |
@@ -19,7 +19,7 @@ Linux
 
 Nginx
 
-| Name  | Link |
+| Link | Name  |
 | ------------- | ------------- |
 | [Open](/posts/230124) | what-is-nginx    |
 | [Open](/posts/230125) | how-to-install-nginx    |
@@ -28,7 +28,7 @@ Nginx
 
 Vagrant 
 
-| Name  | Link |
+| Link | Name  |
 | ------------- | ------------- |
 | [Open](/posts/230126) | what-is-vagrant |
 
