@@ -6,6 +6,5 @@
 ***** Kernel (Linux OS)
 ****** Inital Ram disk - initramfs 
 ******* /sbin/init (parent process)
-********  Command Shell using getty
-********* X Windows System
+******** X Windows System
 @endmindmap
