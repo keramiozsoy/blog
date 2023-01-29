@@ -1,5 +1,7 @@
 # What is Master Boot Record and Boot Loader
 
+![Screenshot](diagram-boot-process.svg)
+
 MBR is abbreviation of Master Boot Record which is a special type of boot sector at the beginning of hard drive. 
 
 MBR is used to start the boot process of a computer's operating system.

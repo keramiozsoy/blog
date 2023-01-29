@@ -1,6 +1,8 @@
 # what is text mode login
 
 
+![Screenshot](diagram-boot-process.svg)
+
 When you press the power button on your computer, software of the computer shows black screen which needs your username and password 
 to log in the system.
 

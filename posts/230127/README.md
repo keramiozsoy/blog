@@ -1,5 +1,6 @@
 # What is an initial RAM disk initrd or initial RAM File System initramfs
 
+![Screenshot](diagram-boot-process.svg)
 
 A initrd which stands for initial ram disk.
 

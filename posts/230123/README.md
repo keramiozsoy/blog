@@ -1,5 +1,7 @@
 # what are the responsibilities of boot loader
 
+![Screenshot](diagram-boot-process.svg)
+
 A boot loader is a program responsible for loading the Linux kernel.
 Static files of the boot loader in the /boot folder.
 

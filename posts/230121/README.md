@@ -1,5 +1,8 @@
 # What is BIOS
 
+
+![Screenshot](diagram-boot-process.svg)
+
 BIOS stands for Basic Input/Output system.
 
 It is firmware that controls the basic functions of a computer.
