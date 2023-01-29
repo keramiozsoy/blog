@@ -14,7 +14,8 @@ Linux
 | [Open](/posts/230122) | what-is-master-boot-record-and-boot-boader  |
 | [Open](/posts/230123) | what-are-the-responsibilities-of-boot-loader |
 | [Open](/posts/230127) | what is an initial RAM disk initrd or initial RAM File System initramfs  |
-| [Open](/posts/230128) | what is text mode login  |
+| [Open](/posts/230128) | what is systemd or /sbin/init  |
+| [Open](/posts/230129) | what is text mode login  |
 
 
 Nginx
