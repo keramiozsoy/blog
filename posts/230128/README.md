@@ -1,4 +1,4 @@
-# text mode login
+# what is text mode login
 
 
 When you press the power button on your computer, software of the computer shows black screen which needs your username and password 
