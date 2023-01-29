@@ -1,5 +1,3 @@
-# linux-filesystem
-
-## What is happening while the boot process is running on linux
+# What is happening while the boot process is running on linux
 
 ![Screenshot](diagram.svg)
