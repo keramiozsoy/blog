@@ -47,6 +47,12 @@ Most of the file types are FIFO special file (a channel of communication between
 
 ## /etc/ folder
 
+
+This directory contains all system related configuration files.
+
+- X11 (ui config files)
+- alternatives ( )
+
 ## /home/ folder
 
 ## /lib/ folder
