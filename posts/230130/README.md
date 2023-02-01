@@ -47,7 +47,6 @@ Most of the file types are FIFO special file (a channel of communication between
 
 ## /etc/ folder
 
-
 ## /home/ folder
 
 ## /lib/ folder
