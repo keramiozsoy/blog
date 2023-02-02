@@ -1,6 +1,6 @@
 # blogs
 
-blog posts about tech
+Blog posts about tech.
 
 Linux
 
