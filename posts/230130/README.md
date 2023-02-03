@@ -53,6 +53,15 @@ This directory contains all system related configuration files.
 - X11 (ui config files)
 - alternatives ( )
 
+
+this directory is a system for determine their determining default commands.
+
+There is not actual code here, only links.
+
+update-alternatives - maintain symbolic links determining default commands
+
+
+
 ## /home/ folder
 
 ## /lib/ folder
