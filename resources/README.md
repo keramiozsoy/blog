@@ -1,3 +1,3 @@
 # Resources
 
-Filesystem Hierarchy Standard
+- Filesystem Hierarchy Standard (Version 3.0)
