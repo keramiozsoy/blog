@@ -279,18 +279,131 @@ Standalone applications live in that directory that are usually seperate from yo
 
 Untrusted software have to install manually here. :)
 
+- Virtualbox guest edititon
 
 ## /proc/
 
+ The proc filesystem is a pseudo-filesystem which provides an interface to kernel data structures.
+
+ It is virtual filesystem :)
+
+ In this place we can say that is the mirror of kernel information while system is running.
+
+ ```SHELL
+ man proc
+ ```
+
+
+Every process will have a directory here which contains all kinds all kinds of information on that process.
+
+Use command below and get the PID
+
+```SHELL
+$ top 
+```
+```SHELL
+ 1 root      20   0   98056   9908   7716 S   0.0   2.0   0:01.71 systemd
+```
+
+Details of this process can be obtained by looking at the associated files in the directory for this process.
+
+```SHELL
+$ cd /proc/1
+```
+
+
+There are a lot of files that explain situations what you need.
+
+
+```SHELL
+$ ls -al
+```
+
+If your're interested in details of a process ID 1.
+
+```SHELL
+$ cat status
+```
+```SHELL
+Name: systemd
+Umask:  0000
+State:  S (sleeping)
+Tgid: 1
+Ngid: 0
+Pid:  1
+PPid: 0
+TracerPid:  0
+Uid:  0 0 0 0
+Gid:  0 0 0 0
+FDSize: 128
+Groups:
+.
+.
+```
+
+
+You can look any running process here.
+
+
+When you closed process, directory is cleaned in proc folder.
+
+
 ## /root/
+
+It is a root users home directory not for normal users.
+
+
+```SHELL
+cd /root/
+```
+```SHELL
+-bash: cd: /root/: Permission denied
+```
+
+You should get permission.
+
+```SHELL
+sudo su 
+```
+```SHELL
+cd /root
+```
+
+In this folder you can access whenever you want even another user home diretories.
 
 ## /sbin/
 
+These are system binaries that a system administrator would use.
+
+Normal user cannot use some of these command even if can see :)
+
+It should be admin to use.
+
+
 ## /srv/
+
+This is the service directory where service data is stored.
+
+If you run a server web or FTP server you would store the files
+that will be accessed by the external users here.
+
+It allows better security and you to easily mount this folder
+from another har drive.
+
 
 ## /tmp/
 
+Temporary files can store here.
+
+It is recommended that files and directories located in /tmp be deleted whenever the system is booted. This is good idea :)
+
 ## /usr/
 
+This is the user application space where application will be installed by users.
+
 ## /var/
+
+Var is a variable directory.
+
+There are administrative and logging files.
 
