@@ -46,6 +46,56 @@ This directory is location of device files.
 Most of the file types are FIFO special file (a channel of communication between the two processes) which can be opened by multiple processes for reading or writing. When data exchanging there isn't content on file :)
 
 - sda ( connected SCSI devices - hard drives HDD, scanners, printers ...)
+
+
+```SHELL
+$ file /dev/sda
+```
+```SHELL
+sda: block special (8/0)
+```
+
+
+What does block special mean?
+
+A block special is a file type on linux. Block special files is a interface 
+of real block devices. The block device performs data input and output operations
+in units of blocks.
+
+Let's check block devices that are conected our system.
+
+First option is 
+
+```SHELL
+$ lsblk
+```
+```SHELL
+NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
+sda      8:0    0  20G  0 disk
+`-sda1   8:1    0  20G  0 part /
+```
+
+
+Second option is 
+
+```SHELL
+sudo fdisk  -l
+```
+```SHELL
+Disk /dev/sda: 20 GiB, 21474836480 bytes, 41943040 sectors
+Disk model: VBOX HARDDISK
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x1175070d
+
+Device     Boot Start      End  Sectors Size Id Type
+/dev/sda1  *     2048 41943039 41940992  20G 83 Linux
+```
+
+
+
 - /disk directory has answers of about sda devices ( by-id, by-partuuid, by-path, by-uuuid) 
 
 
@@ -207,9 +257,28 @@ You can look what it is dynamic linker/loader command below.
 
 ## /media/
 
+
+Aim of media directory is mounting point for removable medias.
+
+- cdrom 
+- usb drive
+- etc.
+
 ## /mnt/
 
+This is mount point for a temporarily mounted filesystem as need.
+
 ## /opt/
+
+Optinal application software packages.
+
+This directory is reserved for all the software and add-on packages that are not part of 
+the default installation.
+
+Standalone applications live in that directory that are usually seperate from your package manager dpkg, rpm etc.
+
+Untrusted software have to install manually here. :)
+
 
 ## /proc/
 
