@@ -1,0 +1,3 @@
+# Resources
+
+Filesystem Hierarchy Standard
