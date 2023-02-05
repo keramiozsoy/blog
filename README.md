@@ -17,6 +17,7 @@ Linux
 | [Open](/posts/230128) | what is systemd or /sbin/init  |
 | [Open](/posts/230129) | what is text mode login  |
 | [Open](/posts/230130) | let's look into linux filesystem hierarchy  |
+| [Open](/posts/230131) | what is X window system |
 
 
 Nginx
