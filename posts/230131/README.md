@@ -9,5 +9,4 @@ X provides the basic framework for a GUI environment.
 - https://x.org/wiki/
 
 
-
-
+X is an architecture-independent system for remote graphical user interfaces and input device capabilities.
