@@ -14,6 +14,10 @@ at Massachusetts Institute of Technology.
 
 X has got X client and X server model which means that application programs can connect with display programs.
 
+Server and client don't need to run on same computer and X provides the base for the graphical user interface on operating system.
+
+X client is just an app on your computer.
+
 X server is responsible to draw windows graphics on the display screen
  and also responsible for managing your input devices.
 
@@ -22,9 +26,19 @@ monitor not only local monitor but also another monitors (display environment) o
 
 X server transfers your act from input devices which are a mouse, a keyboard, a touch screen, a pen etc.
 
-Consequently, Server and client don't need to run on same computer and X provides the base for the graphical user interface on operating system.
+There are key concepts
+
+- X server  
+
+- Window manager (i3 , openbox etc. )
+
+- Desktop environment  ( Gnome, KDE, Cinnamon etc. )
 
 
+X server creates windows.
+Windows manager customizes how those look and they behave.
+Last and top point is Desktop environement which gives you user experience.
+It will help to click or use the bar to search something on your computer. 
 
- - The window manager
-
+Consequently,
+These keys are work together to present user interface on computer.
