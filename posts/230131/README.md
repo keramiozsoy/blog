@@ -42,3 +42,10 @@ It will help to click or use the bar to search something on your computer.
 
 Consequently,
 These keys are work together to present user interface on computer.
+
+
+There is a replacement project which is called Wayland.
+
+If you would like to know detail about it you are able to use below link.
+
+- https://wayland.freedesktop.org
