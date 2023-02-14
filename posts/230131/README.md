@@ -44,8 +44,18 @@ Consequently,
 These keys are work together to present user interface on computer.
 
 
+X is so old software that's why here some news.
+
 There is a replacement project which is called Wayland.
 
 If you would like to know detail about it you are able to use below link.
 
 - https://wayland.freedesktop.org
+
+
+And last, A topic called Display Manager (xdm, lightdm.) is related to X. You can search for some summary information.
+
+Display manager manages, display management , loads x server and graphical logins.
+
+
+
