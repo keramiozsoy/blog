@@ -1,6 +1,9 @@
 # What is X window system
 
 
+![Screenshot](diagram-boot-process.svg)
+
+
 X Windows System is loaded almost final step in the boot process.
 
 - https://x.org/wiki
