@@ -1,1 +1,2 @@
-# How display managers help to show graphical user interface
+# how display managers help to show graphical user interface
+
