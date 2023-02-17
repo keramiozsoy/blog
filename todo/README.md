@@ -3,6 +3,8 @@
 Linux
 
  - What is apparmor
+ - how to install and use openvpn 
+ - how to intall ssh between machines
  
 
 Distributed Design Design Key Concept
