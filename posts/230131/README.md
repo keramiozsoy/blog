@@ -4,7 +4,8 @@
 ![Screenshot](diagram-boot-process.svg)
 
 
-X Windows System is loaded almost final step in the boot process.
+X Windows System is loaded almost final step in the boot process, when you have a desktop environment. 
+Later in this post, I'll provide an example of a desktop environment.
 
 - https://x.org/wiki
 
@@ -27,7 +28,7 @@ X server is responsible to draw windows graphics on the display screen
 It called X server because which can interact any 
 monitor not only local monitor but also another monitors (display environment) on same network.
 
-X server transfers your act from input devices which are a mouse, a keyboard, a touch screen, a pen etc.
+X server transfers your act from input devices which are a mouse, a keyboard, a touch screen, a pen etc. to output devices.
 
 There are key concepts
 
@@ -40,7 +41,7 @@ There are key concepts
 
 X server creates windows.
 Windows manager customizes how those look and they behave.
-Last and top point is Desktop environement which gives you user experience.
+Last and top point is Desktop environment which gives you user experience.
 It will help to click or use the bar to search something on your computer. 
 
 Consequently,
@@ -56,7 +57,7 @@ If you would like to know detail about it you are able to use below link.
 - https://wayland.freedesktop.org
 
 
-And last, A topic called Display Manager (xdm, lightdm.) is related to X. You can search for some summary information.
+And last, A topic called Display Manager (xdm, lightdm.) is related to X. You can search to get summary information.
 
 Display manager manages, display management , loads x server and graphical logins.
 

@@ -18,7 +18,7 @@ Linux
 | [Open](/posts/230129) | what is text mode login  |
 | [Open](/posts/230130) | let's look into linux filesystem hierarchy  |
 | [Open](/posts/230131) | what is X window system |
-| [Open](/posts/230201) | How display managers help to show graphical user interface |
+| [Open](/posts/230201) | how display managers help to show graphical user interface |
 
 
 Nginx
