@@ -36,7 +36,9 @@ There are key concepts
 
 - Window manager (i3 , openbox etc. )
 
-- Desktop environment  ( Gnome, KDE, Cinnamon etc. )
+- Display manager - to login on (gdm, kdm, xdm, lightdm)
+
+- Desktop environment - collection of apps   ( Gnome, KDE, Cinnamon etc. )
 
 
 X server creates windows.
@@ -59,7 +61,7 @@ If you would like to know detail about it you are able to use below link.
 
 And last, A topic called Display Manager (xdm, lightdm.) is related to X. You can search to get summary information.
 
-Display manager manages, display management , loads x server and graphical logins.
+Display manager manages, display management , loads x server and graphical login screens.
 
 
 

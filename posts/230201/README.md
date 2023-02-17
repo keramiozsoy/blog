@@ -1,2 +1,2 @@
-# how display managers help to show graphical user interface
+# what are the stands for  sdtin, stdout and stderr streams
 
