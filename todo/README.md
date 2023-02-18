@@ -1,10 +1,12 @@
- - # TODO
+ # TODO
 
 Linux
 
- - What is apparmor
+ - what is apparmor
  - how to install and use openvpn 
  - how to intall ssh between machines
+ - how to install destkop environment 
+ - what does it mean color of files in linux
  
 
 Distributed Design Design Key Concept
