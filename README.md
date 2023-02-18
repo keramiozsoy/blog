@@ -18,7 +18,7 @@ Linux
 | [Open](/posts/230129) | what is text mode login  |
 | [Open](/posts/230130) | let's look into linux filesystem hierarchy  |
 | [Open](/posts/230131) | what is X window system |
-| [Open](/posts/230201) | what are sdtin, stdout and stderr streams |
+| [Open](/posts/230201) | what are the stands for  sdtin, stdout and stderr streams |
 
 
 Nginx
