@@ -134,8 +134,7 @@ And boom :)
 
 As a result, each pseudo terminal uses different number.
 
-Actually, When we click to open your terminal app, it is not real computer terminal. It is a terminal emulator. But I am not going to dive into this topic.
-
+Actually, when we click to open your terminal app, it is not real computer terminal. It is a terminal emulator. But I am not going to dive into this topic.
 
 
 Now we can continue our main topic.
