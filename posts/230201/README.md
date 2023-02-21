@@ -151,6 +151,16 @@ standard_error	stderr	2		text file
 ```
 
 
+stdin
+
+stdout
+
+stderr
+
+
+
+
+
 
 
 
