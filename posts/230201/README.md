@@ -49,7 +49,7 @@ lrwx------ 1 root root 64 Feb 18 15:50 1 -> /dev/pts/0
 lrwx------ 1 root root 64 Feb 18 15:50 2 -> /dev/pts/0
 ```
 
-We have got 3 different commands but, I didn't understand why all number redirected to 0.
+We have got 3 different commands but, We didn't understand why all number redirected to 0.
 
 Let's split the problem into small pieces.
 
@@ -142,30 +142,125 @@ Now we can continue our main topic.
 
 ```SHELL
 
-Name	Symbolic Name	Value	Example
+Name	Symbolic Name	Value	Example   Operand
 
-standard_input	stdin	0		keyboard
-standard_output	stdout	1		terminal
-standard_error	stderr	2		text file
+standard_input	stdin	0		keyboard   <  or 0<
+standard_output	stdout	1		terminal   >  or 1>
+standard_error	stderr	2		text file  		 2>
 
 ```
 
 
-stdin
-
-stdout
-
-stderr
+- stdin
 
 
+Create empty file that named test.txt
+
+```SHELL
+touch test.txt
+```
+
+Let's redirect input(stdin) to file. "echo" command helps to text on terminal. 
+The terminal will redirect information with (>)greated than.
+
+```SHELL
+echo 'firstline' > test.txt
+```
+
+or 
+
+
+```SHELL
+echo 'firstline' 1> test.txt
+```
+
+
+Let't look into out file.
+
+```SHELL
+cat test.txt
+```
+
+```SHELL
+firstline
+```
+
+
+- stdout
+
+We have looked at the file. But there are same commands.
+
+```SHELL
+cat test.txt
+```
+
+```SHELL
+cat < test.txt
+```
+
+```SHELL
+cat 0< test.txt
+```
+
+Three of them have got same result.
+
+```SHELL
+firstline
+```
 
 
 
+- stderr
+
+Let's imagine we have written command on terminal. It occurs error message.
+
+This is true command which creates a directory.
+
+```SHELL
+mkdir my-directory
+``
+
+We will type wrong command. We will get error.
+
+```SHELL
+mkdirrrrrr my-directory
+```
+
+```SHELL
+-bash: mkdirrrrrr: command not found
+```
+
+We're able to redirect result out of terminal.
+
+```SHELL
+mkdirrrrrr my-directory  2> test.txt
+```
+
+```SHELL
+cat test.txt
+```
+```SHELL
+-bash: mkdirrrrrr: command not 
+```
 
 
+If we don't want to write anywhere. There is a special file in linux.
+
+```SHELL
+man null
+``` 
+
+```SHELL
+Data written to the /dev/null and /dev/zero special files is discarded.
+``` 
+
+We will not see result. 
+
+```SHELL
+mkdirrrrrr my-directory  2> /dev/null
+```
 
 
+Okay, everything is clear, and we can combine all of operands together. 
 
-
-
-
+:)
