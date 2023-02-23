@@ -1,12 +1,14 @@
 # what are the standard wildcards or globbing patterns
 
-
 There are special characters that help to find file in our computer.
 
 Wildcard patterns are not regular expressions; wildcards work on filenames.
 
-
 If you would like to dive in, just run the command below.
+
+
+Open terminal.
+
 
 ```SHELL
 man 7 glob
