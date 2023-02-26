@@ -20,6 +20,7 @@ Linux
 | [Open](/posts/230131) | what is X window system |
 | [Open](/posts/230201) | what are the stands for  sdtin, stdout and stderr streams |
 | [Open](/posts/230202) | what are the standard wildcards or globbing patterns |
+| [Open](/posts/230203) | how to use thi find program searching for files |
 
 
 
