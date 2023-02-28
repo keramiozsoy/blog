@@ -177,7 +177,31 @@ The output.txt file is the result. Because the find command looks for files endi
 
 
 
-If you're interested in more detail enter the command below.
+
+## Let's look at expression of Global Options.
+
+
+Global options take effect even for tests which occur earlier on the command line.
+
+
+We would like to loot at first level of directory.
+
+Example uses maxdepth option.
+
+```SHELL
+find -maxdepth 1  -type f -name '*.txt'
+```
+
+With level 1 , We are not interested in inside of directories. Becase new folder means new level.
+
+```SHELL
+./output.txt
+./yellow.txt
+./blue.txt
+```
+
+
+Except these information, if you're interested in more detail enter the command below on your terminal
 
 ```SHELL
 man find
