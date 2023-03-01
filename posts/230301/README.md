@@ -1,0 +1,1 @@
+# what kind of package managers does Linux need to install apps
