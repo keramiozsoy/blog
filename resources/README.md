@@ -10,3 +10,5 @@
 
 - https://wayland.freedesktop.org
 
+- https://linux-kernel-labs.github.io
+
