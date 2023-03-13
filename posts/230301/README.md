@@ -128,10 +128,21 @@ It's a frustrated process, I don't recommend this way to install apps on your ma
 
 
 Let's fix what we could't not do to install app
-
 ```SHELL
 sudo apt --fix-broken install
 ```
+
+
+You can use below command to install deb package and dependencies.
+
+```SHELL
+sudo apt install ./zoom_amd64.deb
+```
+
+And we have installed zoom.
+
+
+
 
 - Red Hat
 
