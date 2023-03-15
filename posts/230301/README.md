@@ -194,5 +194,21 @@ I don't recommend this way to install apps on your machine.
 # Installing a package from a repository
 
 
+- Debian
+
+```SHELL
+sudo apt-get install gimp
+```
+
+- Red Hat
+
+What is yum, dnf?
+
+DNF  is  the next upcoming major version of YUM, a package manager for RPM-based Linux distributions.
+
+
+```SHELL
+yum search firefox
+```
 
 
