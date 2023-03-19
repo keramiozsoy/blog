@@ -204,11 +204,19 @@ sudo apt-get install gimp
 
 What is yum, dnf?
 
+
+YUM is the primary tool for getting, installing, deleting, querying, and managing Red Hat Enterprise Linux RPM software packages from official Red Hat software repositories, as well as other third-party repositories.
+
 DNF  is  the next upcoming major version of YUM, a package manager for RPM-based Linux distributions.
+
+You can use yum or dnf command on red hat distros.
 
 
 ```SHELL
 yum search firefox
 ```
 
+```SHELL
+sudo yum install firefox
+```
 
