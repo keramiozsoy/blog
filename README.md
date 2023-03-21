@@ -22,6 +22,7 @@ Linux
 | [Open](/posts/230202) | what are the standard wildcards or globbing patterns |
 | [Open](/posts/230203) | how to use the find program searching for files |
 | [Open](/posts/230301) | what kind of package managers does Linux need to install apps  |
+| [Open](/posts/230302) | what are the documentation sources on Linux  |
 
 
 
