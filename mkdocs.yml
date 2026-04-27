@@ -38,4 +38,5 @@ nav:
   - Blog:
       - My First Post: blog/post-1.md
       - Deploying to GitHub: blog/post-2.md
+      - Blog Maintenance: blog/post-3.md
   - Tags: tags.md
