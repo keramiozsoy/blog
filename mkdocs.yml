@@ -36,8 +36,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Blog:
+      - Python: blog/python.md
       - NumPy: blog/numpy.md
       - scikit-learn: blog/scikit-learn.md
+      - NLTK: blog/nltk.md
       - Keras: blog/keras.md
       - PyTorch: blog/pytorch.md
       - TensorFlow: blog/tensorflow.md
