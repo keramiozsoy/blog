@@ -7,10 +7,21 @@ This document outlines the strict rules and architectural decisions for this spe
 - **Hosting**: GitHub Pages.
 - **Automation**: GitHub Actions.
 
-## 2. Deployment Rules (Critical)
-- **Triggers**: Deployment ONLY triggers when a tag starting with `v` is pushed (e.g., `git push origin v1.0.0`).
-- **Rate Limit**: A maximum of **2 successful deployments** are allowed within any **24-hour window**.
-- **Automated Releases**: Every successful tag-based deployment must create an official GitHub Release with generated notes.
+## 2. Environment Isolation (Local vs Remote)
+
+Commands are strictly isolated to prevent accidental deployments.
+
+### Local Environment (Development)
+- **Command**: `./local.sh`
+- **Purpose**: Start a local server with live-reload for testing changes.
+- **Files**: Ignores `site/` and `venv/` via `.gitignore`.
+
+### Remote Environment (Production)
+- **Command**: `./deploy.sh <version>` (e.g., `./deploy.sh v1.0.1`)
+- **Purpose**: Handle the entire deployment flow: commit, push to main, and push version tag.
+- **Rules**: 
+    - Only tags starting with `v` trigger deployment.
+    - Max 2 deployments per 24 hours (enforced by GitHub Actions).
 
 ## 3. Link Behavior
 - **Global Rule**: All external links (links pointing away from the blog domain) must open in a **new tab** (`target="_blank"`). This is implemented via `docs/javascripts/extra.js`.
