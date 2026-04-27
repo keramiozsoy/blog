@@ -39,4 +39,10 @@ nav:
       - My First Post: blog/post-1.md
       - Deploying to GitHub: blog/post-2.md
       - Blog Maintenance: blog/post-3.md
+      - NumPy: blog/numpy.md
+      - scikit-learn: blog/scikit-learn.md
+      - Keras: blog/keras.md
+      - PyTorch: blog/pytorch.md
+      - TensorFlow: blog/tensorflow.md
+      - NLP: blog/nlp.md
   - Tags: tags.md
