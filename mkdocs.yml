@@ -36,9 +36,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Blog:
-      - My First Post: blog/post-1.md
-      - Deploying to GitHub: blog/post-2.md
-      - Blog Maintenance: blog/post-3.md
       - NumPy: blog/numpy.md
       - scikit-learn: blog/scikit-learn.md
       - Keras: blog/keras.md
