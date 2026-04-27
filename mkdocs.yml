@@ -47,4 +47,5 @@ nav:
       - PyTorch: blog/pytorch.md
       - TensorFlow: blog/tensorflow.md
       - NLP: blog/nlp.md
+      - Elasticsearch: blog/elasticsearch.md
   - Tags: tags.md
