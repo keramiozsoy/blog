@@ -2,6 +2,9 @@ site_name: Personal Blog
 site_description: A modern blog built with MkDocs and Python.
 site_author: Blog Author
 
+extra_javascript:
+  - javascripts/extra.js
+
 theme:
   name: material
   language: en

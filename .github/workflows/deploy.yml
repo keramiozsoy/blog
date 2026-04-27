@@ -1,9 +1,8 @@
 name: Deploy Blog
 on:
   push:
-    branches:
-      - main
-      - master
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
@@ -13,19 +12,41 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Rate Limit (Max 2 per 24h)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Get the number of successful runs in the last 24 hours
+          # date -u -d '24 hours ago' works on Ubuntu runners
+          TIMESTAMP=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          COUNT=$(gh run list --workflow "Deploy Blog" --status success --json createdAt --jq "[.[] | select(.createdAt > \"$TIMESTAMP\")] | length")
+          
+          echo "Successful deployments in the last 24h: $COUNT"
+          if [ "$COUNT" -ge 2 ]; then
+            echo "::error::Rate limit reached (Max 2 deployments per 24 hours). Please wait before pushing a new version."
+            exit 1
+          fi
+
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc +%V)" >> $GITHUB_ENV 
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
+
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
