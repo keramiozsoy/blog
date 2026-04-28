@@ -31,21 +31,79 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - meta
 
 nav:
   - Home: index.md
+  - Roadmap: roadmap.md
   - Blog:
-      - Python: blog/python.md
-      - NumPy: blog/numpy.md
-      - scikit-learn: blog/scikit-learn.md
-      - NLTK: blog/nltk.md
-      - Keras: blog/keras.md
-      - PyTorch: blog/pytorch.md
-      - TensorFlow: blog/tensorflow.md
-      - NLP: blog/nlp.md
-      - Elasticsearch: blog/elasticsearch.md
+      - Math & Fundamentals:
+          - Linear Algebra: blog/linear-algebra.md
+          - Probability and Statistics: blog/probability-and-statistics.md
+      - Data Science & Engineering:
+          - Data Ingestion: blog/data-ingestion.md
+          - Tabular Data: blog/tabular-data.md
+          - Unstructured Text: blog/unstructured-text.md
+          - Data Pipelines: blog/data-pipelines.md
+          - Structured Pipelines: blog/structured-pipelines.md
+          - Feature Engineering: blog/feature-engineering.md
+          - Feature Store: blog/feature-store.md
+      - Data Science Tools:
+          - Python: blog/python.md
+          - Pandas: blog/pandas.md
+          - NumPy: blog/numpy.md
+          - Matplotlib: blog/matplotlib.md
+          - Seaborn: blog/seaborn.md
+      - Classical Machine Learning:
+          - Classical ML: blog/classical-ml.md
+          - scikit-learn: blog/scikit-learn.md
+          - XGBoost: blog/xgboost.md
+          - LightGBM: blog/lightgbm.md
+      - Deep Learning & Core AI:
+          - Deep Learning: blog/deep-learning.md
+          - Hugging Face: blog/huggingface.md
+          - Large Language Models: blog/llm.md
+          - NLTK: blog/nltk.md
+          - NLP: blog/nlp.md
+          - Keras: blog/keras.md
+          - PyTorch: blog/pytorch.md
+          - TensorFlow: blog/tensorflow.md
+      - MLOps & Production:
+          - MLOps: blog/mlops.md
+          - Model Training: blog/model-training.md
+          - Model Evaluation: blog/model-evaluation.md
+          - Model Deployment: blog/model-deployment.md
+          - Model Retraining: blog/model-retraining.md
+          - Drift Monitoring: blog/drift-monitoring.md
+          - Observability: blog/observability.md
+          - Experiment Design: blog/experiment-design.md
+          - A/B Testing for AI Models: blog/ab-testing-ai.md
+      - LLM Engineering:
+          - Prompt Engineering: blog/prompt-engineering.md
+          - Prompt Versioning: blog/prompt-versioning.md
+          - Building on top of LLMs: blog/building-on-llms.md
+          - Embeddings and Vectors: blog/embeddings-and-vectors.md
+          - Vector Database: blog/vector-database.md
+          - RAG Design: blog/rag-design.md
+          - Retrieval Pipeline: blog/retrieval-pipeline.md
+          - Guardrails: blog/guardrails.md
+          - Agent Building: blog/agent-building.md
+          - Eval Suite: blog/eval-suite.md
+      - Frameworks & Infrastructure:
+          - LangChain: blog/langchain.md
+          - LangGraph: blog/langgraph.md
+          - LlamaIndex: blog/llamaindex.md
+          - CrewAI: blog/crewai.md
+          - ChromaDB: blog/chromadb.md
+          - Supabase: blog/supabase.md
+          - FastAPI: blog/fastapi.md
+          - Streamlit: blog/streamlit.md
+          - Elasticsearch: blog/elasticsearch.md
   - Tags: tags.md
